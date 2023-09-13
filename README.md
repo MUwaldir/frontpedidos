@@ -1,3 +1,26 @@
+RESUMEN:
+En este proyecto de frontend desarrollado en React, se consume una API desarrollada en C# que utiliza PostgreSQL como base de datos. La aplicación consta de las siguientes funcionalidades:
+
+Página de Inicio:
+
+En la página de inicio, se muestran los productos disponibles para los clientes. Los usuarios pueden seleccionar productos y realizar pedidos.
+Registro e Inicio de Sesión:
+
+Los usuarios pueden registrarse proporcionando sus datos personales. Si el registro es exitoso, son redirigidos a la página de inicio de sesión.
+En la página de inicio de sesión, los usuarios generan un token de autenticación que se almacena en el almacenamiento local (local storage), lo que les permite navegar de manera segura en la aplicación.
+Gestión de Pedidos:
+
+Los clientes pueden ver sus pedidos anteriores, lo que les permite hacer un seguimiento de sus compras pasadas.
+Funcionalidades del Administrador:
+
+Para habilitar las funcionalidades de administrador, se debe crear un usuario con un rol de administrador en la base de datos.
+Los administradores tienen el control total sobre los pedidos, lo que les permite filtrar pedidos por número de DNI del cliente y número de pedido.
+Limitaciones Actuales:
+
+Debido a limitaciones de tiempo, no se implementaron todas las medidas de seguridad, como la autenticación de URLs.
+Las funciones de usuarios y administradores no están completamente separadas en términos de control de acceso.
+
+-----------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
