@@ -1,0 +1,20 @@
+/* Pedidos.module.css */
+.pedidos-container {
+    max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto;
+  }
+  
+  .pedido-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-ver-detalles {
+    margin-top: 10px;
+   
+    
+  }
+  

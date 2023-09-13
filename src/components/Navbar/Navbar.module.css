@@ -1,0 +1,60 @@
+/* Navbar.module.css */
+
+.navbar {
+    background-color: #007bff; /* Color de fondo del Navbar */
+  }
+  
+  .container {
+    padding: 0;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  /* Estilos de los enlaces del Navbar */
+.nav-link {
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}
+  .navLink {
+    color: white; /* Color del texto de los enlaces */
+    margin-right: 10px; /* Espaciado entre enlaces */
+  }
+  
+  .navLink:hover {
+    text-decoration: none; /* Elimina el subrayado al pasar el mouse */
+  }
+  
+  /* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    background-color: transparent;
+    border: none;
+  }
+
+  /* Ajusta el margen de los enlaces y cambia el color de fondo del Navbar en dispositivos móviles */
+  .navbar-nav {
+    margin-right: 0;
+    background-color: #007bff;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-right: 0;
+  }
+}
